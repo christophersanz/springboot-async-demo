@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "db2c955c-4def-42ad-873d-f42e5b9cd401",
+		"name": "PROG-ASINCRONA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7308478"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/products/async",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/products/async",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"async"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
